@@ -1,7 +1,11 @@
 <template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div>
+    <div class="home">
+      HOME
+    </div>
+    <div class="home">
+      <router-link to="list">ABOUT</router-link>
+    </div>
   </div>
 </template>
 
@@ -16,3 +20,10 @@ export default {
   }
 }
 </script>
+
+<style>
+.home {
+  font-size: 50px;
+}
+</style>
+
