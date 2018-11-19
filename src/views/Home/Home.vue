@@ -20,8 +20,5 @@ export default {
 </script>
 
 <style>
-.home {
-  font-size: 50px;
-}
 </style>
 
